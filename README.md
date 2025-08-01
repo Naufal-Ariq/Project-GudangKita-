@@ -54,11 +54,11 @@ Dengan memanfaatkan **Firebase** dan sistem **login multi-peran**, aplikasi ini 
 
 ### Dashboard Supervisor
 ![Dashboard Supervisor](https://github.com/user-attachments/assets/1a63cdc7-03aa-4683-814d-510bfe07732e)
-![Profile Staff]()
-![Manajemen Produk](docs/images/produk.png) 
-![Tambah Produk]()
-![Manajemen Pesanan]()
-![Tambah Pesanan](docs/images/tambah_pesanan.png)  
+![Profile Staff](https://github.com/user-attachments/assets/0f18d736-ca5f-4f71-834a-b7fb380a7ff2)
+![Manajemen Produk](https://github.com/user-attachments/assets/2914ae64-b8f8-4111-8274-697e6b3bdb60) 
+![Tambah Produk](https://github.com/user-attachments/assets/c94e8b49-a03b-4c08-b089-1cfb27b7d652)
+![Manajemen Pesanan](https://github.com/user-attachments/assets/103425cb-a1bf-4aec-af31-98ffeabba1ec)
+![Tambah Pesanan](https://github.com/user-attachments/assets/9a72181b-8d04-4614-98d5-1f3fabd24f52)  
 
 > 💡 Screenshot lengkap ada di laporan atau folder `docs/images/`
 
