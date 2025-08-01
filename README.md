@@ -7,6 +7,21 @@ Solusi modern untuk memudahkan pencatatan, pemantauan, dan pengelolaan stok guda
 ![GudangKita Banner](https://img.shields.io/badge/Android-Kotlin-green?style=for-the-badge&logo=android)  
 ![GudangKita Firebase](https://img.shields.io/badge/Firebase-RealtimeDB-orange?style=for-the-badge&logo=firebase)  
 ![Status](https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge)  
+![Kelompok 4](https://img.shields.io/badge/Kelompok-4-purple?style=for-the-badge&logo=teamviewer)  
+
+---
+
+## 👥 Kelompok 4  
+📍 **Universitas Teknologi Bandung — 2025**  
+Proyek ini disusun untuk memenuhi Tugas Besar Mata Kuliah **Pemrograman Mobile 1**  
+
+### 🏅 Anggota Tim
+![Naufal Ariq Fauziy](https://img.shields.io/badge/Naufal%20Ariq%20Fauziy-Developer-blue?style=for-the-badge&logo=android)  
+![Cindy Claudia Septiani](https://img.shields.io/badge/Cindy%20Claudia%20Septiani-Laporan%20%26%20PPT-pink?style=for-the-badge&logo=google-docs)  
+![Dika Naufal Al-Fiansyah](https://img.shields.io/badge/Dika%20Naufal%20Al--Fiansyah-Use%20Case-orange?style=for-the-badge&logo=uml)  
+![Fajar Maulana Hermawan](https://img.shields.io/badge/Fajar%20Maulana%20Hermawan-Database-green?style=for-the-badge&logo=mysql)  
+![Karina Nurfadilla](https://img.shields.io/badge/Karina%20Nurfadilla-PPT%20Designer-purple?style=for-the-badge&logo=slides)  
+![Lutfhi Febrian Noor](https://img.shields.io/badge/Lutfhi%20Febrian%20Noor-Ide%20Konseptor-yellow?style=for-the-badge&logo=lightbulb)  
 
 ---
 
@@ -53,11 +68,11 @@ Dengan memanfaatkan **Firebase** dan sistem **login multi-peran**, aplikasi ini 
 ![Riwayat](https://github.com/user-attachments/assets/295da94f-d70a-42a2-9db0-cacdc853bf4c)  
 
 ### Dashboard Supervisor
-![Dashboard Supervisor](https://github.com/user-attachments/assets/1a63cdc7-03aa-4683-814d-510bfe07732e)
-![Profile Staff](https://github.com/user-attachments/assets/0f18d736-ca5f-4f71-834a-b7fb380a7ff2)
-![Manajemen Produk](https://github.com/user-attachments/assets/2914ae64-b8f8-4111-8274-697e6b3bdb60) 
-![Tambah Produk](https://github.com/user-attachments/assets/c94e8b49-a03b-4c08-b089-1cfb27b7d652)
-![Manajemen Pesanan](https://github.com/user-attachments/assets/103425cb-a1bf-4aec-af31-98ffeabba1ec)
+![Dashboard Supervisor](https://github.com/user-attachments/assets/1a63cdc7-03aa-4683-814d-510bfe07732e)  
+![Profile Staff](https://github.com/user-attachments/assets/0f18d736-ca5f-4f71-834a-b7fb380a7ff2)  
+![Manajemen Produk](https://github.com/user-attachments/assets/2914ae64-b8f8-4111-8274-697e6b3bdb60)  
+![Tambah Produk](https://github.com/user-attachments/assets/c94e8b49-a03b-4c08-b089-1cfb27b7d652)  
+![Manajemen Pesanan](https://github.com/user-attachments/assets/103425cb-a1bf-4aec-af31-98ffeabba1ec)  
 ![Tambah Pesanan](https://github.com/user-attachments/assets/9a72181b-8d04-4614-98d5-1f3fabd24f52)  
 
 > 💡 Screenshot lengkap ada di laporan atau folder `docs/images/`
@@ -70,19 +85,6 @@ Dengan memanfaatkan **Firebase** dan sistem **login multi-peran**, aplikasi ini 
 - **Firebase Storage**
 - **Material Design Components**
 - **QR/Barcode Scanner**
-
----
-
-## 👩‍💻 Tim Pengembang
-
-| Nama                     | Peran                     |
-|---------------------------|---------------------------|
-| **Naufal Ariq Fauziy**   | Developer App             |
-| **Cindy Claudia Septiani** | Laporan & PPT           |
-| **Dika Naufal Al-Fiansyah** | Use Case Designer      |
-| **Fajar Maulana Hermawan** | Database Engineer       |
-| **Karina Nurfadilla**     | PPT Designer             |
-| **Lutfhi Febrian Noor**   | Ide Konseptor            |
 
 ---
 
