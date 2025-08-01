@@ -49,12 +49,15 @@ Dengan memanfaatkan **Firebase** dan sistem **login multi-peran**, aplikasi ini 
 ![Detail Pesanan](https://github.com/user-attachments/assets/90e93b83-0dfe-43fa-806a-19202669c317)  
 
 ### Scan & Riwayat
-![Scan Barcode](docs/images/scan.png)  
-![Riwayat](docs/images/riwayat.png)  
+![Scan Barcode](https://github.com/user-attachments/assets/14670617-b45c-4a0a-9cf6-22d642dee9f9)  
+![Riwayat](https://github.com/user-attachments/assets/295da94f-d70a-42a2-9db0-cacdc853bf4c)  
 
 ### Dashboard Supervisor
-![Dashboard Supervisor](docs/images/dashboard_supervisor.png)  
-![Manajemen Produk](docs/images/produk.png)  
+![Dashboard Supervisor](https://github.com/user-attachments/assets/1a63cdc7-03aa-4683-814d-510bfe07732e)
+![Profile Staff]()
+![Manajemen Produk](docs/images/produk.png) 
+![Tambah Produk]()
+![Manajemen Pesanan]()
 ![Tambah Pesanan](docs/images/tambah_pesanan.png)  
 
 > 💡 Screenshot lengkap ada di laporan atau folder `docs/images/`
