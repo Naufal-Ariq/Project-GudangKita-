@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="16dp"
+    tools:context=".supervisor.SupervisorStafFragment">
+
+    <!-- Wave Header Background -->
+    <ImageView
+        android:id="@+id/header_wave"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_wave"
+        android:layout_alignParentTop="true" />
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Staf Gudang"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_below="@+id/header_wave" />
+
+    <!-- RecyclerView Staff -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvStaff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gudang Kita</string>
+    <string name="product_image">Gambar Produk</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="status_pesanan">
+        <item>Diproses</item>
+        <item>Selesai</item>
+    </string-array>
+
+
+</resources>

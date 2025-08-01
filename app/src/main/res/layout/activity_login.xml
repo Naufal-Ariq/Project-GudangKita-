@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".login.LoginActivity">
+
+    <!-- Logo di luar CardView -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/logo_gudangkita"
+        android:contentDescription="@string/app_name"
+        android:elevation="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ScrollView dengan margin bottom agar tidak nabrak navigation -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginBottom="32dp"
+        android:fillViewport="true"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/imgLogo"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <!-- CardView Login -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardLogin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/white"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp">
+
+                    <!-- Judul Login -->
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Login"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- Subjudul -->
+                    <TextView
+                        android:id="@+id/tvSubtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Masuk ke akun Anda"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_500"
+                        android:layout_marginTop="4dp"
+                        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- Email -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layoutEmail"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:layout_marginTop="24dp"
+                        app:startIconDrawable="@drawable/ic_email"
+                        app:boxStrokeColor="@color/gray_300"
+                        app:layout_constraintTop_toBottomOf="@id/tvSubtitle"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Password -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layoutPassword"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        app:startIconDrawable="@drawable/ic_password"
+                        app:endIconMode="password_toggle"
+                        android:layout_marginTop="16dp"
+                        app:boxStrokeColor="@color/gray_300"
+                        app:layout_constraintTop_toBottomOf="@id/layoutEmail"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPassword" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Tombol Login Staf -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_login_staf"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Login sebagai Staf"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="24dp"
+                        android:backgroundTint="@color/blue_600"
+                        app:cornerRadius="16dp"
+                        app:layout_constraintTop_toBottomOf="@id/layoutPassword"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <!-- Tombol Login Supervisor -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_login_supervisor"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Login sebagai Supervisor"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray_800"
+                        android:layout_marginTop="12dp"
+                        app:cornerRadius="16dp"
+                        app:strokeColor="@color/gray_300"
+                        app:strokeWidth="1dp"
+                        app:layout_constraintTop_toBottomOf="@id/btn_login_staf"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <!-- Tombol Login Google -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_google_login"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Login dengan Google"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        app:icon="@drawable/ic_google"
+                        app:iconPadding="8dp"
+                        app:iconGravity="textStart"
+                        app:cornerRadius="16dp"
+                        app:strokeColor="@color/gray_300"
+                        app:strokeWidth="1dp"
+                        app:layout_constraintTop_toBottomOf="@id/btn_login_supervisor"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

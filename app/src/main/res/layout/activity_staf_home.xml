@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".staff.StafHomeActivity">
+
+    <!-- Header -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header_layout_staf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header_gradient"
+        android:padding="20dp"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Ikon / Logo kecil -->
+        <ImageView
+            android:id="@+id/logo_staf"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/logo_gudangkita"
+            android:contentDescription="Logo GudangKita"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="12dp"/>
+
+        <!-- Sapaan -->
+        <TextView
+            android:id="@+id/tv_greeting_staf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Bekerja,"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/logo_staf"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!-- Nama Staf -->
+        <TextView
+            android:id="@+id/tv_staf_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Andi (Staf Gudang)"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@id/tv_greeting_staf"
+            app:layout_constraintTop_toBottomOf="@id/tv_greeting_staf"
+            app:layout_constraintEnd_toStartOf="@id/btn_logout_staf"/>
+
+        <!-- Tombol Logout -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_logout_staf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_logout"
+            app:iconTint="@android:color/white"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="16dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- NavHost Fragment -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment_staf"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/staf_nav_graph"
+        app:layout_constraintTop_toBottomOf="@id/header_layout_staf"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation_staf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_staf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bottom_nav"
+        android:elevation="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:menu="@menu/staf_bottom_menu"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

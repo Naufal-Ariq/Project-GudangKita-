@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background bisa warna netral supaya logo terlihat -->
+    <background android:drawable="@color/white"/>
+    <!-- Foreground pakai logo GudangKita -->
+    <foreground android:drawable="@drawable/logo_gudangkita"/>
+    <!-- Untuk Android 13+ -->
+    <monochrome android:drawable="@drawable/logo_gudangkita"/>
+</adaptive-icon>

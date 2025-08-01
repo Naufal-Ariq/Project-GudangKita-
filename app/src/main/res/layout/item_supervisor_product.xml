@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_product"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_placeholder_product"
+            android:background="@drawable/circle_background_gray"
+            android:padding="0dp" />
+
+
+        <!-- Nama & Detail Produk -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_product"
+            android:layout_marginStart="12dp"
+            android:layout_alignTop="@id/img_product"
+            android:layout_alignBottom="@id/img_product"
+            android:layout_toStartOf="@id/btn_edit_product"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tv_product_name_supervisor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Produk"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/tv_product_details_supervisor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKU: 000 | Stok: 0"
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:maxLines="1"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <!-- Tombol Edit -->
+        <TextView
+            android:id="@+id/btn_edit_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_button_rounded_green"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/tv_product_name_supervisor" />
+
+        <!-- Tombol Hapus -->
+        <TextView
+            android:id="@+id/btn_delete_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hapus"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_button_rounded_red"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/btn_edit_product"
+            android:layout_marginTop="8dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

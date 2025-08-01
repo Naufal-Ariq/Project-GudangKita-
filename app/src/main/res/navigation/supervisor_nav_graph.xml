@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/supervisor_nav_graph"
+    app:startDestination="@id/nav_home_supervisor">
+
+    <fragment
+        android:id="@+id/nav_home_supervisor"
+        android:name="com.example.gudangkita.supervisor.SupervisorHomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/nav_produk_supervisor"
+        android:name="com.example.gudangkita.supervisor.SupervisorProdukFragment"
+        android:label="Produk" />
+
+    <fragment
+        android:id="@+id/nav_staf_supervisor"
+        android:name="com.example.gudangkita.supervisor.SupervisorStafFragment"
+        android:label="Staf" />
+
+    <fragment
+        android:id="@+id/supervisorOrderFragment"
+        android:name="com.example.gudangkita.supervisor.SupervisorOrderFragment"
+        android:label="Pesanan"
+        tools:layout="@layout/fragment_supervisor_order" />
+
+</navigation>

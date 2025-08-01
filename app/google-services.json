@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "893714144576",
+    "project_id": "gudangkita-d0a12",
+    "storage_bucket": "gudangkita-d0a12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893714144576:android:60b4a172671c95d799aea5",
+        "android_client_info": {
+          "package_name": "com.example.gudangkita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893714144576-1aflucb10b4hhdjql1gr71o8g8mppltd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gudangkita",
+            "certificate_hash": "ddda0fc369b8ee20ce5de850af5a44911f8b0a74"
+          }
+        },
+        {
+          "client_id": "893714144576-v84a53f7k546dkqvos9bvaajvdjqlfvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiWxrvo5R5Zt6TjWMGrfLbv7dxv-ghtdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893714144576-v84a53f7k546dkqvos9bvaajvdjqlfvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

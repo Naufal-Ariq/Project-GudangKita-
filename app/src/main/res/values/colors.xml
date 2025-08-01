@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Warna dari Mockup -->
+    <color name="gray_50">#F9FAFB</color>
+    <color name="gray_300">#D1D5DB</color>
+    <color name="gray_500">#6B7280</color>
+    <color name="gray_600">#4B5563</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_800">#1F2937</color>
+    <color name="blue_600">#2563EB</color>
+    <color name="red_500">#EF4444</color>
+    <color name="teal_700">#018786</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="status_done">#4CAF50</color> <!-- Hijau -->
+    <color name="status_process">#FF9800</color> <!-- Oranye -->
+    <color name="status_pending">#F44336</color> <!-- Merah -->
+    <color name="gray">#888888</color>
+    <color name="dark_gray">#666666</color>
+
+
+
+
+    <color name="status_yellow">#FBBF24</color>
+    <color name="status_blue">#60A5FA</color>
+    <color name="status_green">#34D399</color>
+    <color name="status_gray">#9CA3AF</color>
+    <color name="status_red">#E53935</color>
+
+    <color name="design_default_color_primary">#6200EE</color>
+    <color name="primary">#6200EE</color> <!-- Ungu -->
+    <color name="primaryDark">#3700B3</color>
+    <color name="accent">#03DAC5</color>
+
+
+    <!-- [FIX] Menambahkan warna untuk Chip Status -->
+    <color name="chip_bg_yellow">#FEF3C7</color>
+    <color name="chip_text_yellow">#92400E</color>
+    <color name="chip_bg_blue">#DBEAFE</color>
+    <color name="chip_text_blue">#1E40AF</color>
+    <color name="chip_bg_green">#D1FAE5</color>
+    <color name="chip_text_green">#065F46</color>
+    <color name="chip_bg_gray">#F3F4F6</color>
+    <color name="chip_text_gray">#374151</color>
+</resources>
