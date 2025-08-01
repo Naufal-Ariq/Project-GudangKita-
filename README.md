@@ -45,7 +45,7 @@ Dengan memanfaatkan **Firebase** dan sistem **login multi-peran**, aplikasi ini 
 ![Login](https://github.com/user-attachments/assets/873609ff-2819-4e83-bc78-a345667dcd29)
 
 ### Dashboard Staf
-![Dashboard Staf](docs/images/dashboard_staff.png)  
+![Dashboard Staf](https://github.com/user-attachments/assets/cf3ea641-73a4-40f7-be36-fc542b168049)  
 ![Detail Pesanan](docs/images/detail_pesanan.png)  
 
 ### Scan & Riwayat
