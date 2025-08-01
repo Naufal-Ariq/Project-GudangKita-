@@ -41,7 +41,7 @@ Dengan memanfaatkan **Firebase** dan sistem **login multi-peran**, aplikasi ini 
 ## 📱 Tampilan Aplikasi
 
 ### Splash & Login
-![Splash Screen](docs/images/splash.png)  
+![Splash Screen]("https://github.com/user-attachments/assets/dd775117-f3e5-421d-a2d3-5b3f98ff5700")  
 ![Login](docs/images/login.png)
 
 ### Dashboard Staf
