@@ -19,7 +19,7 @@ Proyek ini disusun untuk memenuhi Tugas Besar Mata Kuliah **Pemrograman Mobile 1
 ![Naufal Ariq Fauziy](https://img.shields.io/badge/Naufal%20Ariq%20Fauziy-Developer-blue?style=for-the-badge&logo=android)  
 ![Cindy Claudia Septiani](https://img.shields.io/badge/Cindy%20Claudia%20Septiani-Laporan%20%26%20PPT-pink?style=for-the-badge&logo=google-docs)  
 ![Dika Naufal Al-Fiansyah](https://img.shields.io/badge/Dika%20Naufal%20Al--Fiansyah-Use%20Case-orange?style=for-the-badge&logo=uml)  
-![Fajar Maulana Hermawan](https://img.shields.io/badge/Fajar%20Maulana%20Hermawan-Database-green?style=for-the-badge&logo=mysql)  
+![Fajar Maulana Hermawan](https://img.shields.io/badge/Fajar%20Maulana%20Hermawan-Database-green?style=for-the-badge&logo=firebase)  
 ![Karina Nurfadilla](https://img.shields.io/badge/Karina%20Nurfadilla-PPT%20Designer-purple?style=for-the-badge&logo=slides)  
 ![Lutfhi Febrian Noor](https://img.shields.io/badge/Lutfhi%20Febrian%20Noor-Ide%20Konseptor-yellow?style=for-the-badge&logo=lightbulb)  
 
