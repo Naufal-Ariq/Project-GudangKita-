@@ -5,7 +5,7 @@ Solusi modern untuk memudahkan pencatatan, pemantauan, dan pengelolaan stok guda
 ---
 
 ![GudangKita Banner](https://img.shields.io/badge/Android-Kotlin-green?style=for-the-badge&logo=android)  
-![GudangKita Firebase](https://img.shields.io/badge/Firebase-RealtimeDB-orange?style=for-the-badge&logo=firebase)  
+![GudangKita Firebase](https://img.shields.io/badge/Firebase-FirebaseFirestore-orange?style=for-the-badge&logo=firebase)  
 ![Status](https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge)  
 ![Kelompok 4](https://img.shields.io/badge/Kelompok-4-purple?style=for-the-badge&logo=teamviewer)  
 
